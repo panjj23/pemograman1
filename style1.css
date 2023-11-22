@@ -1,0 +1,60 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    background-color: #fffdfd;
+    color: #000000;
+    text-align: center;
+    padding: 20px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #faea08;
+}
+
+.content {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #a0a0a0;
+    border: 1px solid #c7f803;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+.project {
+    margin-top: 20px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+/* Smooth scroll effect */
+html {
+    scroll-behavior: smooth;
+}
